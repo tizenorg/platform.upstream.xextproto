@@ -1,5 +1,5 @@
 Name:           xextproto
-Version:        7.2.1
+Version:        7.3.0
 Release:        1
 License:        MIT
 Summary:        X
@@ -19,7 +19,7 @@ BuildRequires:  pkgconfig(xorg-macros)
 cp %{SOURCE1001} .
 
 %build
-%configure --disable-static \
+%autogen --disable-static \
              --libdir=%{_datadir} \
              --without-xmlto
 
