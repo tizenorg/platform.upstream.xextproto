@@ -1,3 +1,5 @@
+%bcond_with x
+
 Name:           xextproto
 Version:        7.3.0
 Release:        1
